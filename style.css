@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    padding-top: 50px;
+    max-height: 50px;
+    overflow-y: scroll;
+    background:linear-gradient(to top right,  #e75787 0%,  #d869d2 50%, #e75787 100%);
+}
+.datetime{
+    color:white;
+    width: 330px;
+    padding: 15px 10px;
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%,-50%);
+}
+.time{
+    position: relative;
+    margin: 10px 6px;
+    font-weight: 600px;
+    display: flex;
+}
+.time div{
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-left: 10px;
+    background: white;
+    color: black;
+    font-style:oblique;
+}
+.time button{
+    margin-left: 5px;
+    border-radius: 10px;
+    border:2px solid white;
+    font-size: small;
+    background:white;
+    color:black;
+    margin-left: 10px;
+    width: 120px;
+    height: 55px;
+    font-style:oblique;
+}
+.app {
+    
+    margin-top: auto;
+    position: absolute;
+    top: 70%;
+    left: 60%;
+}
+h6{
+    text-align: center;
+    margin:10px;
+    color: rgba(128, 128, 128, 0.466);
+}
+h1{
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+h3{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.719);
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+h2{
+    text-align: center;
+    margin: 30px;
+    margin-left: 80px;
+}
+
